@@ -1,1 +1,3 @@
-# pwu_2109_web_programming
+# PWU 2109 Web Programming
+
+Files and examples for PWU-CSD-S21.
