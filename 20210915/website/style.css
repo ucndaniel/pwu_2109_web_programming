@@ -4,64 +4,6 @@ html, body {
 	background-color: LightSteelBlue;
 }
 
-#menu {
-	background-color: CornflowerBlue;
-	border-collapse: collapse;
-}
-
-img {
-	border: none;
-}
-
-#menu td {
-	border-right-style: solid;
-	border-right-width: thin;
-	border-right-color: white;
-}
-
-#menu td {
-	padding: 2px 5px;
-	cursor: pointer;
-}
-
-#menu td:hover {
-	background-color: SteelBlue;
-}
-
-#footer {
-	border-top: solid thin CornflowerBlue;
-	background-color: white;
-	padding: 2px;
-	text-align: right;
-	position: relative;
-	z-index: 5;
-}
-
-#footer a {
-	text-decoration: none;
-}
-
-#images {
-	vertical-align: top;
-	position: relative;
-}
-
-#images img {
-	position: absolute;
-	overflow: hidden;
-	z-index: 1;
-}
-
-#contact {
-	background-color: CornflowerBlue;
-	color: white;
-	position: relative;
-	z-index: 5;
-}
-
-
-
-
 
 /* Ny Css */
 
@@ -132,15 +74,20 @@ main {
 
 .intro {
 	padding: 0.5rem;
+	padding-bottom: 0;
 }
 
 .exercise {
 	padding: 0.5rem;
+	padding-top: 0;
 }
 
-.exercise h2 {
-	margin: 1rem;
+
+
+.exercise h1 {
+	margin: 0.83em;
 	margin-left: 0;
+	font-size: 1.5em;
 }
 
 .exercisePtitle {
