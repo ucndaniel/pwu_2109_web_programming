@@ -58,3 +58,129 @@ img {
 	position: relative;
 	z-index: 5;
 }
+
+
+
+
+
+/* Ny Css */
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+body {
+	width: 53rem;
+	margin: auto;
+}
+
+.headerTitle h1 {
+	font-size: 3.3rem;
+	margin: 0;
+	font-family: sans-serif;
+	padding: 0.8rem;
+	font-weight: bolder;
+}
+header {
+background: white;
+}
+
+nav {
+	background-color: cornflowerblue;
+}
+.menu {
+	display: flex;
+	margin: 0;
+	padding: 0;text-decoration: none;
+	list-style: none;
+	place-content: center;
+}
+
+.menu li {
+	padding: 2px 5px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+.menu li:hover {
+	background-color: steelblue;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	text-decoration: none;
+}
+
+main {
+	display: grid;
+	grid-template-areas: 'a b';
+	background: white;
+}
+
+.mainSection {
+	display: grid;
+	grid-template-areas: 'a b';
+	margin-bottom: 9rem;
+}
+
+.intro {
+	padding: 0.5rem;
+}
+
+.exercise {
+	padding: 0.5rem;
+}
+
+.exercise h2 {
+	margin: 1rem;
+	margin-left: 0;
+}
+
+.exercisePtitle {
+	margin: 1rem;
+	margin-left: 0;
+}
+.gif {
+	padding: 2rem;
+	padding-left: 0;
+}
+
+footer {
+	background: cornflowerblue;
+}
+.footerSectionOne{
+	display: grid;
+	place-content: center;
+	color: white;
+	padding: 5px;
+}
+
+.footerSectionOne ul{
+	padding: 0;
+	padding-left: 4rem;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+.footerSectionOne ul li:first-child {
+	font-weight: bold;
+}
+
+.footerSectionTwo {
+	background: white;
+	display: flex;
+	place-content: end;
+	padding: 2px;
+}
+.footerSectionTwo a {
+	text-decoration: none;
+}
+
